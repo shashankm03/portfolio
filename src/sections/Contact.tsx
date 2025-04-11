@@ -1,13 +1,30 @@
+// import React from 'react';
+// import './Contact.css';
+
+// const Contact: React.FC = () => (
+//   <section className="contact-section">
+//     <h2>Contact</h2>
+//     <p>Email me at <a href="mailto:rithesh@example.com">rithesh@example.com</a></p>
+//   </section>
+// );
+
+// export default Contact;
+
 import React from 'react';
 import './Contact.css';
+import { FaEnvelope, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 const Contact: React.FC = () => (
   <section className="contact-section">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:rithesh@example.com">rithesh@example.com</a></p>
-    <p>Phone: <a href="tel:+911234567890">+91 12345 67890</a></p>
-    <p>Instagram: <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer">@yourusername</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">linkedin.com/in/yourprofile</a></p>
+    <ul>
+      <li>
+        <FaEnvelope /> Email: <a href="shashankmahaladkar@gmail.com">XXXXX@gmail.com</a>
+      </li>
+      <li>
+        <FaInstagram /> Instagram: <a href="https://instagram.com/shashank_mahaladkar" target="_blank" rel="noopener noreferrer">@shanxx</a>
+      </li>
+    </ul>
   </section>
 );
 

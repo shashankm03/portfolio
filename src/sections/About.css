@@ -20,4 +20,29 @@
     font-weight: 700;
     margin-bottom: 1rem;
     text-shadow: 0 8px 20px rgba(255, 255, 255, 0.2);
+    position: relative;
+    display: inline-block;
   }
+  
+  .about-section h2::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background-color: #ffcc00; /* Yellow underline */
+    bottom: -6px;
+    left: 0;
+    border-radius: 2px;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+  }
+  
+  .highlight {
+    color: #ffcc00;
+    font-weight: 600;
+  }
+  
